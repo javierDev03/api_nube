@@ -32,5 +32,5 @@ def handler(request, *args, **kwargs):
     from flask import Request
     return app(request.environ, start_response=kwargs.get('start_response'))
 
-if __name__ == "__main__":
-    app.run()
+# if __name__ == "__main__":
+#     app.run()
